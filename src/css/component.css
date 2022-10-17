@@ -1,0 +1,135 @@
+
+h3 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+.check_btn {
+    background-color: #4D5B9E;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    width: fit-content;
+    color: #F5F7FB;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+#strt-q-btn {
+    background-color: var(--clr-btn);
+    color: var(--clr-light);
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: .75em;
+    margin-top: 1em;
+    letter-spacing: .5px;
+    font-size: 1em;
+}
+
+#strt-q-btn:focus, #strt-q-btn:hover, .check_btn:focus, .check_btn:hover {
+    cursor: pointer
+}
+
+#strt-q-btn:active, .check_btn {
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+.quiz-type-desc {
+    width: 400px;
+    margin-top: .5em;
+    font-size: .95em;
+}
+
+.quizz-home-container {
+    width: 800px;
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: var(--clr-background);
+}
+
+.top-clr, .bottom-clr {
+    position: absolute;
+}
+
+.top-clr {
+    right: 0;
+    top: 0;
+}
+
+.bottom-clr {
+    left: 0;
+    bottom: 0;
+}
+
+.quizz-app-comp {
+    padding: 100px;
+    position: relative;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: #F5F7FB;
+}
+
+.qnans {
+    font-family: inherit;
+    color: #293264;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.q {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    width: 90%;
+    text-align: left;
+}
+
+.ans-main {
+    display: flex;
+    flex-direction: row;
+    font-size: .75rem;
+}
+
+.ans {
+    padding: .5rem 1rem;
+    text-align: center;
+    border: 1px solid #293264;
+    border-radius: 10px;
+    font-weight: 600;
+    min-width: 6.5rem;
+    margin-right: 1rem;
+}
+
+.ans:hover, .ans:focus {
+    cursor: pointer;
+}
+
+.ans:active {
+    background-color: #D6DBF5;
+}
+
+.in-ans {
+    margin-right: 2rem;
+}
+
+.score-el {
+    display: flex;
+}
+
+.score-el > p {
+    margin-left: 5rem;
+    color: inherit;
+    font-weight: 800;
+}

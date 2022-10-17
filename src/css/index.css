@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-background: #F5F7FB;
+    --clr-normal: #293264;
+    --clr-btn: #4D5B9E;
+    --clr-light: #fff;
+
+    --ff-body:  'Inter', sans-serif;
+    
+    --fw-normal: 400;
+    --fw-big: 700;
+
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-body);
+    color: var(--clr-normal);
+    font-size: 1em;
+}
